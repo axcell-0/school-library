@@ -21,6 +21,7 @@
   - [🔭 Future Features ](#future-features)
   - [🤝 Contributing ](#contributing)
   - [⭐️ Support ](#support)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#license)
 
 
@@ -121,7 +122,7 @@ The School Library Management App is designed to streamline the process of manag
 
 👤 Thierry Noumbuh
 
-- GitHub: [@kit0-0](https://github.com/axcell-0)
+- GitHub: [@axcell-0](https://github.com/axcell-0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,6 +158,10 @@ We welcome contributions from the community. If you'd like to contribute, please
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Support <a name="support"></a>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank microverse for this project
 
 If you encounter any issues or have questions about using the app, feel free to [contact our support team](https://github.com/axcell-0/school-library/issues).
 
