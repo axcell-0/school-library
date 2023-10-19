@@ -1,5 +1,5 @@
 class Classroom
-  attr_accessor :title, :author, :rentals
+  attr_accessor :title, :author, :rentals, :label
 
   def initialize(label)
     @label = label
