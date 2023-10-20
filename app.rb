@@ -102,21 +102,21 @@ class App
       puts 'Nothing to see here.'
       return
     end
-  
+
     puts 'Enter the number of the book you want: '
     list_books
     book_number = gets.chomp.to_i - 1
-  
+
     puts 'Enter your ID: '
     list_people
     person_id = gets.chomp.to_i
     individual = @people.find { |person| person.id == person_id }
-  
+
     print 'Enter the date [yyyy-mm-dd]: '
     date = gets.chomp.to_s
     rental = Rental.new(date, @books[book_number], individual)
     @rentals << rental
-  
+
     puts 'Book rented successfully.'
   end
 
