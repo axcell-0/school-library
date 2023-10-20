@@ -41,7 +41,7 @@ class App
       puts 'No people added yet. Please add a person and try again.'
     else
       @people.each_with_index do |person, index|
-        puts "#{index + 1}) [#{person.class}] Name: #{person.name} | Age: #{person.age} | ID: #{person.id}"
+        puts "#{index + 1}) [#{person.class}] Name: #{person.age} | Age: #{person.name} | ID: #{person.id}"
       end
     end
   end
@@ -107,10 +107,10 @@ class App
     list_books
     book_number = gets.chomp.to_i - 1
 
-    puts 'Enter your ID: '
+    puts '\nSelect a person from the following list by number (not id)'
     list_people
     person_id = gets.chomp.to_i
-    individual = @people.find { |person| person.id == person_id }
+    individual = @people[person_id - 1]
 
     print 'Enter the date [yyyy-mm-dd]: '
     date = gets.chomp.to_s
